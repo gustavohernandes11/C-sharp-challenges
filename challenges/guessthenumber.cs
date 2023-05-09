@@ -6,7 +6,6 @@ class GuessTheNumber
     {
     newgame:
         int randomNumber, userNumber;
-        // Criando o número aleatório 
         Random rnd = new Random();
         randomNumber = rnd.Next(0, 10);
 
@@ -54,12 +53,8 @@ class GuessTheNumber
 
                 default:
                     break;
-
             }
         }
-
-
     }
-
 }
 
